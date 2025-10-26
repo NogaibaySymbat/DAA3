@@ -1,6 +1,7 @@
 Assignment 3
 ---
 name: Nogaibay Symbat
+--
 group: se-2402
 ------
 
@@ -95,25 +96,33 @@ However, with efficient heap structures, Prim’s algorithm remains competitive 
 -----
 
 Project Structure
-----
+---
+The repository follows a clean modular layout separating the algorithms, models, and utilities for clarity and scalability.
+
 src/
 ├── main/java/
-│   ├── Main.java                 # Entry point - runs both algorithms
-│   ├── algorithms/
-│   │   ├── PrimAlgorithm.java    # Prim's MST implementation
-│   │   └── KruskalAlgorithm.java # Kruskal's MST implementation
-│   ├── model/
-│   │   ├── Graph.java            # Graph data structure
-│   │   └── Edge.java             # Edge with weight
-│   └── utils/JsonIO.java         # JSON file handling
-└── test/resources/
-    ├── ass_3_input.json          # Input graphs
-    └── ass_3_output.json         # Algorithm results
+│   ├── Main.java                  # Entry point – runs both algorithms and compares results
+│   │
+│   ├── algorithms/                # MST algorithm implementations
+│   │   ├── PrimAlgorithm.java     # Prim's Minimum Spanning Tree (MST) implementation
+│   │   └── KruskalAlgorithm.java  # Kruskal's MST implementation
+│   │
+│   ├── model/                     # Core data structures
+│   │   ├── Graph.java             # Graph representation (vertices, edges)
+│   │   └── Edge.java              # Edge class with endpoints and weight
+│   │
+│   └── utils/                     # Helper utilities
+│       └── JsonIO.java            # JSON file reading/writing utilities
+│
+└── test/resources/                # Input and output data for validation
+    ├── ass_3_input.json           # Input graphs (city networks)
+    └── ass_3_output.json          # Algorithm results (MST data, costs, stats)
 
 ------
 
  What Main.java Does
- ---
+
+ --
 
 The Main class coordinates the entire process:
 
