@@ -99,6 +99,7 @@ Project Structure
 ---
 The repository follows a clean modular layout separating the algorithms, models, and utilities for clarity and scalability.
 
+```text
 src/
 ├── main/java/
 │   ├── Main.java                  # Entry point – runs both algorithms and compares results
@@ -117,7 +118,7 @@ src/
 └── test/resources/                # Input and output data for validation
     ├── ass_3_input.json           # Input graphs (city networks)
     └── ass_3_output.json          # Algorithm results (MST data, costs, stats)
-
+```
 ------
 
  What Main.java Does
