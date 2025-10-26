@@ -1,12 +1,7 @@
 ### 📘 *Assignment 3*  
-#### **City Transportation Network Optimization**
-
-<div align="center">
-  <img src="assets/university_logo.png" alt="University Logo" width="120" style="border-radius:10px; margin-top:10px;">
-</div>
-
 **Name:** Nogaibay Symbat  
-**Group:** SE-2402  
+**Group:** SE-2402 
+#### **City Transportation Network Optimization**
 
  Project Overview
 --------
