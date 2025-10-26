@@ -29,15 +29,17 @@ Comparison: Detailed analysis and benchmarking of both algorithms’ efficiency,
 -------
 
 **Algorithms Implemented**
+
 Prim’s Algorithm – A greedy, vertex-based approach that builds the MST progressively from a chosen starting node by always selecting the lowest-cost edge to a new vertex.
 
 Kruskal’s Algorithm – A greedy, edge-based approach that sorts all edges by weight and continuously adds the smallest one that does not create a cycle.
 
 Both algorithms ultimately achieve the same result — a connected graph with minimum total cost — but differ in implementation strategy and performance characteristics.
 
-
+----
 
 #### **Results Summary**
+
 Graph 1 (5 districts, 7 possible roads)
 Algorithm	Total Cost	Operations	Time
 Prim	16	56	1.06 ms
@@ -52,7 +54,7 @@ Kruskal	6	24	0.03 ms
 
 MST Roads: A–B (1), B–C (2), C–D (3)
 
-
+----
 
 #### ** Key Findings **
 
@@ -77,6 +79,7 @@ Prim’s algorithm performed fewer priority queue operations but had slightly hi
 ------
 
 **Scalability**
+
 For larger transportation networks (hundreds of districts), Kruskal’s algorithm is often more practical -
 especially when edge data is pre-sorted or stored in adjacency lists.
 However, with efficient heap structures, Prim’s algorithm remains competitive for fully connected (dense) city networks.
@@ -84,6 +87,7 @@ However, with efficient heap structures, Prim’s algorithm remains competitive 
 -----
 
 #### **Project Structure**
+
 The repository follows a clean modular layout separating the algorithms, models, and utilities for clarity and scalability.
 
 ```text
