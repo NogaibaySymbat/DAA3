@@ -1,12 +1,13 @@
-Assignment 3
----
-name: Nogaibay Symbat
---
-group: se-2402
-------
+### 📘 *Assignment 3*  
+#### **City Transportation Network Optimization**
 
-City Transportation Network Optimization
----
+<div align="center">
+  <img src="assets/university_logo.png" alt="University Logo" width="120" style="border-radius:10px; margin-top:10px;">
+</div>
+
+**Name:** Nogaibay Symbat  
+**Group:** SE-2402  
+
  Project Overview
 --------
 This project implements and compares Prim’s and Kruskal’s algorithms to find the Minimum Spanning Tree (MST) for optimizing city road construction costs.
